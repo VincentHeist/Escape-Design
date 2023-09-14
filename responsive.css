@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1440px){
+
+}
+
+@media only screen and (max-width: 1024px){
+    .container{
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 700px;
+    }
+    .head-bottom h2 {
+        font-size: 36px;
+    }
+    .feature-info h2 {
+        font-size: 36px;
+    }
+    .feature-info p {
+        font-size: 12px;
+    }
+    .client-header h2 {
+        font-size: 36px;
+    }
+    .teams-header h2 {
+        font-size: 36px;
+    }
+    .contacts-left-head h2 {
+        font-size: 36px;
+    }
+    .contacts-left-list ul {
+        flex-direction: column;
+    }
+    .contacts-left-list ul li {
+        width: 100%;
+    }
+    .feature-bottom ul li {
+        width: 40%;
+    }
+    .teams-person-image img{
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .container{
+        width: 300px;
+    }
+    .head-top {
+        flex-direction: column;
+    }
+    .head-bottom h2 {
+        font-size: 25px;
+    }
+    .feature-info {
+        width: 100%;
+    }
+    .feature-info h2 {
+        font-size: 25px;
+    }
+    .feature-top {
+        flex-direction: column-reverse;
+    }
+    .feature-info h2 {
+        text-align: center;
+    }
+    .feature-info p {
+        text-align: center;
+    }
+    .feature-mid {
+        flex-direction: column-reverse;
+    }
+    .feature-bottom ul li {
+        flex-direction: column;
+    }
+    .feature-bottom-image {
+        margin: auto;
+    }
+    .feature-bottom-info h3 {
+        text-align: center;
+    }
+    .feature-bottom-info p {
+        text-align: center;
+    }
+    .feature-bottom ul li {
+        width: 100%;
+    }
+    .client-header h2 {
+        font-size: 25px;
+    }
+    .reviews {
+        flex-direction: column;
+    }
+    .reviews-extra {
+        flex-direction: column;
+    }
+    .review-info {
+        width: 100%;
+    }
+    .more-clients {
+        margin: auto;
+        width: 50%;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .teams-header h2 {
+        font-size: 25px;
+    }
+    .teams-people {
+        flex-direction: column;
+    }
+    .teams-footer {
+        width: 100%;
+    }
+    .teams-person{
+        padding: 20px 0px;
+    }
+    .contacts-main {
+        flex-direction: column;
+    }
+    .contacts-left{
+        width: 100%;
+    }
+    .contacts-left-head h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .contacts-left-head p{
+        font-size: 12px;
+    }
+    .contacts-main {
+        padding: 50px 0px;
+    }
+    .contacts-right {
+        width: 100%;
+    }
+    .footer-item {
+        font-size: 12px;
+    }
+    .header{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .review-info {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 290px;
+    }
+    .review-info {
+        width: fit-content;
+    }
+}

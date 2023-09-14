@@ -1,0 +1,349 @@
+/* Common CSS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: brandon-regular;
+    src: url(fonts/HVD\ Fonts\ -\ BrandonText-Regular.otf);
+}
+
+@font-face {
+    font-family: brandon-bold;
+    src: url(fonts/HVD\ Fonts\ -\ BrandonText-Bold.otf);
+}
+
+@font-face {
+    font-family: brandon-light;
+    src: url(fonts/HVD\ Fonts\ -\ BrandonText-Light.otf);
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: brandon-regular;
+}
+
+h2, h3{
+    font-family: brandon-bold;
+}
+
+span{
+    font-family: brandon-light;
+}
+
+/* Header CSS */
+
+.main{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.head-top{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #7690c5;
+}
+
+.head-bottom{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.head-bottom p{
+    padding-bottom: 10px;
+}
+
+.head-bottom h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.head-bottom a{
+    color: white;
+    border: 1px solid white;
+    padding: 8px 30px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.head-bottom a:hover{
+    color: #7690c5;
+    border-color: #7690c5;
+}
+
+.menu ul li a.active{
+    color: #7690c5;
+}
+
+/* Feature CSS */
+
+.feature{
+    margin: 100px 0px;
+}
+
+.feature-extra{
+    background-color: #fafafa;
+    padding: 50px 0px;
+}
+
+.feature-info{
+    width: 60%;
+}
+
+.feature-info h2{
+    margin: 20px 0px;
+    font-size: 48px;
+}
+
+.feature-info h2 span{
+    font-weight: 100;
+}
+
+.feature-info p{
+    font-size: 16px;
+}
+
+.feature-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-mid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.feature-bottom ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-bottom ul li{
+    margin: 30px;
+    width: 43%;
+    display: flex;
+}
+
+.feature-bottom-image{
+    margin: 10px;
+}
+
+.feature-bottom-info h3{
+    margin: 10px;
+}
+
+.feature-bottom-info p{
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Clients CSS */
+
+.clients-review{
+    background-color: #fafafa;
+    padding: 50px 0px;
+}
+
+.client-header h2{
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 48px;
+}
+
+.client-header p{
+    text-align: center;
+}
+
+.reviews{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-extra{
+    flex-direction: row-reverse;
+}
+
+.review-info{
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+    background-color: white;
+}
+
+.review-info p{
+    position: relative;
+}
+
+.review-info p::before{
+    content: '"';
+    top: 0;
+    left: 0;
+}
+
+.review-info p::after{
+    content: '"';
+    bottom: 0;
+    right: 0;
+}
+
+.review-info .client-name{
+    font-family: brandon-regular;
+    color: #7690c5;
+    font-size: 16px;
+}
+
+.more-clients{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.more-clients img{
+    margin: 10px;
+}
+
+/* Teams CSS */
+
+.teams{
+    background-color: #111111;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+.teams-header h2{
+    font-size: 48px;
+}
+
+.teams-people{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams-person .teams-person-socials{
+    margin-top: 10px;
+}
+
+.teams-footer{
+    width: 70%;
+    margin: auto;
+}
+
+/* Contacts CSS */
+
+.contacts{
+    background-color: #7690c5;
+    color: white;
+}
+
+.contacts-main{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-left{
+    width: 48%;
+}
+
+.contacts-left-head h2{
+    font-size: 48px;
+}
+
+.contacts-left-list ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+
+.contacts-left-list ul li{
+    width: 50%;
+    display: flex;
+}
+
+.contacts-left-list .contacts-left-list-image{
+    width: 15%;
+}
+
+.contacts-left-list .contacts-left-list-image,
+.contacts-left-list .contacts-left-list-info{
+    padding: 10px;
+}
+
+.contacts-right{
+    width: 48%;
+}
+
+.contacts-right form input,textarea{
+    width: 80%;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px solid #fafafa;
+}
+
+.contacts-right form input::placeholder,
+.contacts-right form textarea::placeholder{
+    color: lightgray;
+}
+
+.contacts-right form input:focus,
+.contacts-right form textarea:focus{
+    outline: none;
+}
+
+/* Footer CSS */
+
+.footer{
+    background-color: #7690c5;
+    color: white;
+}
+
+.footer-item{
+    padding: 20px 0px;
+    text-align: center;
+    border-top: 1px solid #b8c6e0;
+}
